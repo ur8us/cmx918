@@ -19,21 +19,26 @@ Chips:
 - U4: ?
 - U5: ?
 
-Test points:
+Test points, top:
 
-- TP1:
-- TP2:
-- TP4:
-- TP9:
-- TP10:
-- TP12:
-- TP11:
-- TP16:
-- TP22:
-- TP24:
-- TP25:
-- TP26:
-- TP27:
-- TP28:
-- TP29:
-- TP30:
+- TP20
+- TP2?
+
+Test points, bottom:
+
+- TP1
+- TP2
+- TP4
+- TP9
+- TP10
+- TP12
+- TP11
+- TP16
+- TP22
+- TP24
+- TP25
+- TP26
+- TP27
+- TP28
+- TP29
+- TP30
