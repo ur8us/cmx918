@@ -1,6 +1,8 @@
 # cmx918
 DRM1000 module based on the CMX918 DRM tuner
 
+"Covers broadcast bands from 530 kHz to 108 MHz."
+
 [Module datasheet](https://cmlmicro.com/Content/Downloads/DRM1000Datasheet.pdf)
 
 DRM1000 teardown:
