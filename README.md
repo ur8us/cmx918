@@ -58,3 +58,9 @@ I2S to the codec chip:
 - TP26 - ?
 - TP27 - ?
 - TP30 - ?
+
+# Registers of the CMX918
+
+- 0xD1, 0xD0 - status, RSSI ?
+
+
