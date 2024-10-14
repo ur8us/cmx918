@@ -26,19 +26,31 @@ Test points, top:
 
 Test points, bottom:
 
-- TP1
+- TP1 - internal I2C SCK
+- TP4 - internal I2C DATA
+
+I2C addresses: CMX918 - 0x55, CMX655D - 0x57
+
 - TP2
-- TP4
-- TP9
-- TP10
+
+I2S from the CMX918:
+- TP9 - bit clock (15360 kHz in FM, 7680 kHz in VHF DRM, 768 kHz in AM and HF DRM)
+- TP10 - L/R clock (480 kHz in FM, 240 kHz in VHF DRM, 24 kHz in AM and HF DRM)
+- TP11 - data (32 bits per sample)
+
+There are non-populated resistors on the module, which connect pins 27, 29, 28 to TP9, TP10, TP11.
+
 - TP12
-- TP11
 - TP16
-- TP22
+
+I2S to the codec chip:
+- TP22 - bit clock (2048 kHz in FM and VHF DRM, 1024 kHz in AM and HF DRM)
+- TP28 - data (64 bits per sample)
+- TP29 - L/R clock (32 kHz in FM and VHF DRM, 16 kHz in AM and HF DRM)
+
 - TP24
 - TP25
 - TP26
 - TP27
-- TP28
-- TP29
+  
 - TP30
