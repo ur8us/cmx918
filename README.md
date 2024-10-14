@@ -14,6 +14,9 @@ See other photos in the [IMAGES](https://github.com/ur8us/cmx918/tree/main/IMAGE
 Chips:
 
 - U1: CMX918 (CMX918Q5) - DRM tuner (no datasheet available)
+Structure diagram:
+![Image.](https://github.com/ur8us/cmx918/blob/main/IMAGES/cmx918-structure.png)
+
 - U2: CMX655D - Audio codec [Info](https://cmlmicro.com/products/digital-voice/product/cmx655d-ultra-low-power-voice-codec)
 - U3: HX6537-A - Mircocontroller [Datasheet](https://www.himax.com.tw/product-brief/HX6537.39.40-A_product_brief.pdf)
 - U4: ?
