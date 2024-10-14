@@ -61,6 +61,6 @@ I2S to the codec chip:
 
 # Registers of the CMX918
 
-- 0xD1, 0xD0 - status, RSSI ?
+- 0xD1, 0xD0 - status, RSSI ? - read every second
 
 
