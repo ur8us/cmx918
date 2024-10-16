@@ -37,9 +37,9 @@ I2C addresses: CMX918 - 0x55, CMX655D - 0x57
 - TP2 - ?
   
 Digital data from the CMX918:
-- TP9 - bit clock (15360 kHz in FM, 7680 kHz in VHF DRM, 768 kHz in AM and HF DRM)
-- TP10 - sample clock (480 kHz in FM, 240 kHz in VHF DRM, 24 kHz in AM and HF DRM)
-- TP11 - data (32 bits per sample)
+- TP9 - bit clock (15360 kHz in FM, 7680 kHz in VHF DRM, 768 kHz in AM and HF DRM) - connected to pin 41 of the microcontroller, PSPI_SCLK
+- TP10 - sample clock (480 kHz in FM, 240 kHz in VHF DRM, 24 kHz in AM and HF DRM) - connected to pin 38 of the microcontroller, PSPI_CS0
+- TP11 - data (32 bits per sample) - connected to pin 39 of the microcontroller, PSPI_SDIO0
   
 Bit clock and sample clock at 24 kHz sample rate:
 ![Image.](https://github.com/ur8us/cmx918/blob/main/IMAGES/cmx918-osc24k.png)
