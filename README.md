@@ -64,4 +64,11 @@ I2S to the codec chip:
 
 - 0xD1, 0xD0 - status, RSSI ? - read every second
 
+# My prototype board
+
+Do not want to buy a "CML Micro DE9180-2 Demo & Prototyping Kit for the DRM1000"? Make it yourself for $10. 
+![Image.](https://github.com/ur8us/cmx918/blob/main/IMAGES/top.jpg)
+![Image.](https://github.com/ur8us/cmx918/blob/main/IMAGES/bot.jpg)
+
+Now I have access to the internal I2C as well as to the digital data from the CMX918.
 
